@@ -1,0 +1,188 @@
+.nav_main {
+    background-color: #811434;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.search_bar {
+    display: flex;
+    gap:20px;
+   
+}
+.right_nav{
+    display: flex;
+    gap:20px;
+    color: white;
+    font-size: 20px;
+    margin: 0px 40px;
+    align-items: center;
+}
+.right_nav>img{
+    width:35px;
+    border-radius: 40px;
+}
+.right_nav>p{
+    margin-top: 10px;
+}
+.dash {
+    width:200px;
+    display: flex;
+    align-items: center;
+    color:#797a7c;
+    font-weight: 600;
+    font-size: 16px;
+    gap:10px;
+    cursor: pointer;
+}
+.dash_main{
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.dash>img {
+    margin-top: 3px;
+    width:30px;
+}
+.dash>p {
+    margin-top: 10px;
+}
+.right_div {
+    width:80%;
+    margin:auto
+}
+.main_page{
+    display: flex;
+}
+.vine {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#797a7c;
+}
+.new_vine {
+    width:150px;
+   
+    background-color: #811434;
+    color: white;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 7px;
+}
+.order_main {
+    display: flex;
+    gap:10px
+}
+.order_box{
+    width:225px;
+    height: 5rem;
+    border-top: 2px solid #ffd373;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 7px;
+}
+.order_box>span {
+    margin-left: 20px;
+}
+.open_order{
+    display: flex;
+    justify-content: space-around;
+    color:#797a7c;
+}
+.open_order>img {
+    width:30px;
+    height: 30px;
+}
+.main_overview {
+    width: 98%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sales_overiew {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+}
+.total_sales {
+    font-size: 15px;
+    font-weight: bold;
+}
+.total_sales p{
+    color:#797a7c;
+}
+.total_sales1>span:nth-child(1) {
+    color:#797a7c;
+    font-size: 15px;
+    font-weight: 600;
+}
+.total_sales1>span:nth-child(2) {
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.data_week {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.data_week>div:nth-child(2) {
+    font-weight: 600;
+    margin-right: 10px;
+}
+.chart_data {
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+}
+.chart_data>div {
+    text-align: left;
+    width:30%;
+    color:#797a7c;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+}
+.chart_data>div>h3 {
+    color:#811434
+}
+.chart_data>div>h5 {
+    color:#39d83c;
+    margin-bottom: 10px;
+}
+.product {
+    height: 20px;
+}
+.product>img {
+   width:20px;
+   height:30px;
+}
+.product>span {
+  margin-left: 10px;
+  text-align: left;
+}
+input[type=checkbox] {
+    accent-color: #f60d25;
+    cursor: pointer;
+  }
+.table_main{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+}
+.table_main>h5{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
