@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './main.module.css';
 import { InputGroup, Form } from 'react-bootstrap';
-import { Dashboard } from './dashboard';
-import { OrderDetails } from './order_details';
-import { Graph } from './grap';
-import { Tabledata } from './table';
+import { Dashboard } from './Dashboard';
+import { OrderDetails } from './OrderDetails';
+import { Graph } from './Graph';
+import { Tabledata } from './Tabledata';
 export const Navbar = () => {
   return (
     <div>

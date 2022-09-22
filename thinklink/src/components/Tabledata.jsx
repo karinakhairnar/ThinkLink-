@@ -13,7 +13,7 @@ export const Tabledata = () => {
         bordered
         hover
         size='sm'
-        style={{ fontSize: '13px', marginRight: '15px' }}>
+        style={{ fontSize: '13px', marginRight: '25px', marginTop: '20px' }}>
         <thead>
           <tr>
             <input type='checkbox' />
@@ -34,9 +34,10 @@ export const Tabledata = () => {
                 <td className={styles.product}>
                   <img src={el.img} />
 
-                  <label style={{ marginLetf: '10px' }}>
+                  <label>
                     {el.name}
-                    <p>{el.name1}</p>
+                    <br />
+                    {el.name1}
                   </label>
                 </td>
                 <td>{el.Rating}</td>
@@ -46,10 +47,10 @@ export const Tabledata = () => {
                 <td>{el.COST}</td>
                 <td>{el.PRICE}</td>
                 <img
-                  heigth='10px'
-                  width='20px'
-                  src='https://freepngimg.com/thumb/web_design/24747-5-down-arrow-transparent-picture.png'
-                />
+                  heigth='20px'
+                  width='35px'
+                  src='https://banner2.cleanpng.com/20180712/lej/kisspng-arrow-down-computer-icons-drop-down-list-pfeil-symbol-5b47f7e7686699.9674250915314431754276.jpg'
+               style={{marginTop:'25px'}} />
               </tr>
             );
           })}
