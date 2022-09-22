@@ -1,6 +1,6 @@
 # ThinkLink-
 <p>I have created an UI of the given Asssignment</p>
-## Tech Tack - 
+Tech Tack - 
 <span>React</span>
 <span>Bootstrap</span>
 <span>module.css</span>
