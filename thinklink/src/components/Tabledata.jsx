@@ -6,7 +6,7 @@ export const Tabledata = () => {
   return (
     <div
       className={styles.table_main}
-      style={{ width: '80%', marginLeft: '20%', marginTop: '30px' }}>
+      style={{ width: '60%', marginLeft: '20%', marginTop: '30px' }}>
       <h5>Inventory</h5>
       <Table
         striped
@@ -16,7 +16,6 @@ export const Tabledata = () => {
         style={{ fontSize: '13px', marginRight: '25px', marginTop: '20px' }}>
         <thead>
           <tr>
-            <input type='checkbox' />
             <th>PRODUCT</th>
             <th>RATING</th>
             <th>VINTAGE</th>
